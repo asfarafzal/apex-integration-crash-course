@@ -10,7 +10,7 @@
 **/
 public with sharing class Spoonacular {
     private static final String RECEIPE_API = 'https://api.spoonacular.com';
-    private static final String API_KEY = 'replace_this_with_your_api_key';
+    private static final String API_KEY = 'e91beee516964d91990176c292127de7';
 
     @AuraEnabled
     public static String getRandomRecipe(){
